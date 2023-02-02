@@ -1,6 +1,8 @@
 <template>
-  <HeaderNav /> 
-  <router-view/>
+  <div class="bg-gray-700 min-h-screen text-white">
+    <HeaderNav /> 
+    <router-view/>
+  </div>
 </template>
 
 <script>
